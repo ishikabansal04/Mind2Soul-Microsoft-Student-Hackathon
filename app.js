@@ -12,7 +12,7 @@ const app = express();
 
 
 
-mongoose.connect("mongodb+srv://mind2soul:mind2soul@mind2soul.6v2cg.mongodb.net/counselorSchema");
+mongoose.connect("mongodb+srv://mind2soul:<YOUR_PASSWORD>@mind2soul.6v2cg.mongodb.net/counselorSchema");
 // mongoose.connect("mongodb://localhost:27017/counselorSchema");
 
 const counselorSchema = mongoose.Schema({
@@ -81,10 +81,10 @@ app.post("/", function(req, res){
 
     const jsonData = JSON.stringify(data);
 
-    const url = "https://us5.api.mailchimp.com/3.0/lists/970baf6faf";
+    const url = "https://us5.api.mailchimp.com/3.0/lists/<YOUR-UNIQUE-ID>";
     const options = {
         method: "POST",
-        auth: "M2S:31d1708d44861efed846b85e310781c7-us5"
+        auth: "M2S:<YOUR-API-KEY>"
     };
 
     const request = https.request(url, options, function(response){
@@ -94,13 +94,13 @@ app.post("/", function(req, res){
             var transporter = nodemailer.createTransport({
                 service: 'gmail',
                 auth: {
-                    user: 'mind2soulinfo@gmail.com',
-                    pass: '@mind2soul'
+                    user: '<YOUR-EMAIL>',
+                    pass: '<YOUR-PASSWORD>'
                 }
             });
                         
             var mailOptions = {
-                from: 'mind2soulinfo@gmail.com',
+                from: '<YOUR-EMAIL>',
                 to: email,
                 subject: 'Confirmation Email for your subscription!',
                 text: `Hello! This is a confirmation email to confirm your subscription with mind2soul. Hope you have a healthy and fit mind & soul. Thankyou for subscribing.`
