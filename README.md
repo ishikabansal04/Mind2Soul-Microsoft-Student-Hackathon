@@ -21,6 +21,7 @@ You can subscribe to receive a daily dose of motivation right in your mailbox an
 <br>
 <br>
 
+
 ## 🚩 INSPIRATION
 <p align = "justify">
 Mental illnesses affect 19% of the adult population, 46% of teenagers and 13% of children each year. People struggling with their mental health may be in your family, live next door, teach your children or work in the next cubicle.<br>
