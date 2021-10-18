@@ -1,11 +1,17 @@
 # Mind2Soul-Microsoft-Student-Hackathon
-This is our team project to be submitted for Microsoft Student Hackathon. The project's theme is "Ability Hack Challenge"
+This is our team project to be submitted for Microsoft Student Hackathon. The project's theme is <strong>"Ability Hack Challenge"</strong>
 <br>
 <br>
 
 ## 🔆 WEBSITE 
 <p align = "center">
   <strong>https://mind2soul.azurewebsites.net/</strong>
+</p>
+<br>
+
+## 🔆 DEMO VIDEO 
+<p align = "center">
+  <strong>https://drive.google.com/file/d/1ebuynCbzj7-QJEKqokV56jWFed4Ozfx6/view?usp=sharing</strong>
 </p>
 <br>
 
@@ -49,7 +55,6 @@ Our Web-App Mind2Soul helps people understand and recognise mental health diffic
 <br>
 <br>
 
-
 ## 💻 WORKING
 <p align = "justify">
 Our Web-App works on the following features: <br><br>
@@ -62,8 +67,30 @@ Our Web-App works on the following features: <br><br>
 <br>
 <br>
 
+## 💫 FUTURE PROSPECTS
+<p align = "justify">
+The following features can still be worked upon: <br><br>
+1️⃣ Integrating microsoft teams for counselor sessions so that meetings can be scheduled in teams calendar.<br>
+2️⃣ Reminders can be generated using Microsoft Outlook. <br>
+3️⃣ Mental Health calculator to be implemented using Machine Learning Algorithms. <br>
+4️⃣ The Azure chatbot can be made multilingual and handled using voice recognition.  <br>
+</p>
+<br>
+<br>
+
 ## ❄️ TEAM
 ![Team Image](https://github.com/ishikabansal04/Mind2Soul-Microsoft-Student-Hackathon/blob/master/Team%20Photo.png)
+<br>
+<br>
+
+## ❗ TEAM STORY
+<p align = "justify">
+The following features can still be worked upon: <br><br>
+1️⃣ <strong>Archita Arora</strong> A small contribution to reducing the social stigma around mental health. <br>
+2️⃣ <strong>Ishika Bansal</strong> Being healthy mentally & emotionally can promote productivity and effectiveness. <br>
+3️⃣ <strong>Vidhi Katyal</strong> Believe that everyone should be able to talk freely and share their thoughts without fear. <br>
+4️⃣ <strong>Neha Pandey</strong> Increasing awareness of mental illness increases knowledge of mental illness. And with more knowledge, there is less stigma. <br>
+</p>
 <br>
 <br>
 
