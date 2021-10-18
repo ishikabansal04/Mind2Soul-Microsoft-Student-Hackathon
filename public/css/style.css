@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
@@ -12,7 +13,7 @@ body{
 	box-sizing: border-box;
 	margin:0;
 	padding:0;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 /*Header*/
@@ -514,6 +515,13 @@ header .ham-burger.active span:nth-child(2){
     padding: 0px 50px 20px 0px;
     font-family: 'Open Sans', sans-serif;
 	text-align: justify;
+}
+
+@media screen and (max-width: 800px) {
+		
+	.start-today .content .text p{
+		padding-right: 20px;
+	}
 }
 
 .start-today .content .text .btn{
@@ -1080,6 +1088,11 @@ label{
 	padding-top: 0px;
   }
 
+  @media screen and (max-width:1200px){
+	  .modal{
+		  top:10%;
+	  }
+  }
   .modal-chatbot{
 	display: none; /* Hidden by default */
 	position: fixed; /* Stay in place */
@@ -1698,11 +1711,53 @@ only screen and (max-width: 760px),
 	display: none;
 }
 
+#chat-icon img{
+	width: 50%;
+}
+
 #chat-icon{
 	position: fixed;
 	top: 88%;
 	left: 91%;
 	z-index: 10000;
+}
+
+
+@media screen and (max-width: 1200px) and (min-height: 1200px) {
+	
+	#chat-icon{
+		top: 85%;
+		left: 85%;
+	}
+	#chat-icon img{
+		width: 100% !important;
+	}
+}
+
+
+@media screen and (max-width: 800px) {
+	
+	#chat-icon{
+		top: 78%;
+		left: 78%;
+	}
+	#chat-icon img{
+		width: 100% !important;
+	}
+}
+
+
+@media screen and (max-width: 700px) {
+	
+	#chat-icon{
+		top: 84%;
+		left: 70%;
+	}
+	#chat-icon img{
+		width: 70% !important;
+		
+		/* z-index: 10000; */
+	}
 }
 
 
@@ -1715,4 +1770,76 @@ only screen and (max-width: 760px),
 
 .compose-container{
 	padding: 10% 10% 10% 10%;
+}
+
+
+.btn-primary{
+	width: fit-content;
+}
+
+@media screen and (max-width: 800px) {
+	.compose-container{
+		padding-top: 15%;
+	}
+	.main-heading{
+		padding-bottom: 5%;
+	}
+	.title_container{
+		padding-top: 10%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.compose-container{
+		padding-top: 20%;
+	}
+	.main-heading{
+		padding-bottom: 8%;
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.compose-container{
+		padding-top: 30%;
+	}
+	.main-heading{
+		padding-bottom: 12%;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	.main-heading{
+		font-size: 25px;
+	}
+}
+
+.modal .imgcontainer img{
+	width: 10%;
+}
+
+
+@media screen and (max-width: 1500px) {
+	.modal .imgcontainer img{
+		width: 30%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.modal .imgcontainer img{
+		width: 50%;
+	}
+}
+
+
+@media screen and (max-width: 700px) {
+	.modal .imgcontainer img{
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 300px) {	
+	.modal .imgcontainer img{
+		width: 50%;
+	}
 }
