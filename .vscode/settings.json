@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/c5d817b1-9d37-4364-9925-391b48af0053/resourceGroups/mind2soulinfo/providers/Microsoft.Web/sites/mind2soul",
+    "appService.deploySubpath": "."
+}
