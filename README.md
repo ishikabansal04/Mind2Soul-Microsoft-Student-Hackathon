@@ -13,6 +13,7 @@ This is our team project to be submitted for Microsoft Student Hackathon. The pr
 <br>
 <br>
 
+
 ## 📜 DESCRIPTION
 <p align = "justify">
 We know how uncomforting things can get when one has a tremendous amount of mental stress. Our Web-App Mind2Soul will give you the correct perspective and a way to deal with them. 
@@ -69,3 +70,7 @@ Our Web-App works on the following features: <br><br>
 <p align = "center">
   Made with ♥️
 </p>  
+
+
+
+
