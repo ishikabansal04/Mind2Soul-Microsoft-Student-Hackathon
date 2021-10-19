@@ -12,7 +12,7 @@ const app = express();
 
 
 
-mongoose.connect("mongodb+srv://mind2soul:<YOUR_PASSWORD>@mind2soul.6v2cg.mongodb.net/counselorSchema");
+mongoose.connect("mongodb+srv://<YOUR_URL>/counselorSchema");
 // mongoose.connect("mongodb://localhost:27017/counselorSchema");
 
 const counselorSchema = mongoose.Schema({
